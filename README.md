@@ -4,7 +4,7 @@ Dieses Repository enthält die Anwendung und Datenvorbereitung für ein interakt
 
 ## Webseite PV-Rechner
 Die App ist live auf Streamlit Cloud verfügbar:  
-**[[binapvanlagen.streamlit.app](https://binapvpotenzial.streamlit.app/)]**
+**[[binapvpotenzial.streamlit.app](https://binapvpotenzial.streamlit.app/)]**
 
 ---
 
@@ -43,7 +43,6 @@ Das Repository gliedert sich in folgende Kernkomponenten:
 | `02_Stromdaten_Preparation.ipynb` | Jupyter Notebook zur Bereinigung, Filterung (Fokus auf Kategorie H4) und Zuordnung der Schweizer Stromtarifdaten. |
 | `03_PV_Potenzial_Vergleich.ipynb` | Jupyter Notebook für statistische Analysen, Validierungen und Vergleiche der berechneten Potenziale. |
 | `main_BINA.py` | Das Hauptskript der interaktiven Streamlit-Webanwendung (GUI, Geocoding-Logik und Datenvisualisierung). |
-| `ergebnis.csv` | Automatisch exportierte Zwischenergebnisse und Kennzahlen der Datenanalyse-Pipelines. |
 | `requirements.txt` | Liste der benötigten Python-Bibliotheken zur Ausführung der Anwendung (z. B. `streamlit`, `geopandas`, `rasterio`). |
 
 ---
