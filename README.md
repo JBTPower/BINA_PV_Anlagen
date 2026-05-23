@@ -2,11 +2,20 @@
 
 Dieses Repository enthält die Anwendung und Datenvorbereitung für ein interaktives Analysetool zur Bestimmung des Photovoltaik-Potenzials und der wirtschaftlichen Attraktivität von Hausanlagen in der Schweiz. Das Projekt wurde im Rahmen einer Case Study für das Modul BINA entwickelt.
 
-## Live-Anwendung
+## Webseite PV-Rechner
 Die App ist live auf Streamlit Cloud verfügbar:  
 **[binapvpotenzial.streamlit.app](https://binapvpotenzial.streamlit.app)**
 
 ---
+
+**Anleitung: Notebook von GitHub in Colab öffnen**
+1. Gehe auf **[https://colab.research.google.com](https://colab.research.google.com)**
+2. Klicke links auf «Github»
+<img width="679" height="526" alt="Bildschirmfoto 2026-05-23 um 20 28 47" src="https://github.com/user-attachments/assets/245171c2-186f-49ec-8fb9-e205e51dad32" />
+   
+4. Gib im Suchfeld den Github-URL ein: **[https://github.com/JBTPower/BINA_PV_Anlagen](https://github.com/JBTPower/BINA_PV_Anlagen)**
+<img width="675" height="524" alt="Bildschirmfoto 2026-05-23 um 20 32 10" src="https://github.com/user-attachments/assets/02906337-87f6-4042-93b2-6b2d9f809efb" />
+
 
 ## Data-Driven Decision-Making (DDDM)
 Das Projekt folgt konsequent dem Ansatz der **datenbasierten Entscheidungsfindung (DDDM)**. Anstatt Investitionsentscheidungen für Photovoltaikanlagen auf vagen Schätzungen oder globalen Durchschnittswerten aufzubauen, aggregiert und analysiert diese App primäre, hochaufgelöste Geodaten und Tarife:
