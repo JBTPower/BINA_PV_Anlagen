@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import gpd
+import geopandas as gpd
 import rasterio
 import requests
 import random  # Neu importiert für das Zufallsprinzip
