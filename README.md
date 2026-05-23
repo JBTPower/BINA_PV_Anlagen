@@ -4,7 +4,7 @@ Dieses Repository enthält die Anwendung und Datenvorbereitung für ein interakt
 
 ## Webseite PV-Rechner
 Die App ist live auf Streamlit Cloud verfügbar:  
-**[[binapvpotenzial.streamlit.app](https://binapvpotenzial.streamlit.app/)]**
+**[binapvpotenzial.streamlit.app](https://binapvpotenzial.streamlit.app/)**
 
 ---
 
