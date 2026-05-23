@@ -4,7 +4,7 @@ Dieses Repository enthält die Anwendung und Datenvorbereitung für ein interakt
 
 ## Live-Anwendung
 Die App ist live auf Streamlit Cloud verfügbar:  
-**[binapvanlagen.streamlit.app](https://binapvanlagen.streamlit.app)**
+**[binapvapotenzial.streamlit.app](https://binapvapotenzial.streamlit.app)**
 
 ---
 
