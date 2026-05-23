@@ -21,17 +21,6 @@ Die App ist live auf Streamlit Cloud verfügbar:
 
 ---
 
-## Data-Driven Decision-Making (DDDM)
-Das Projekt folgt konsequent dem Ansatz der **datenbasierten Entscheidungsfindung (DDDM)**. Anstatt Investitionsentscheidungen für Photovoltaikanlagen auf vagen Schätzungen oder globalen Durchschnittswerten aufzubauen, aggregiert und analysiert diese App primäre, hochaufgelöste Geodaten und Tarife:
-
-1. **Standortbestimmung:** Über räumliche Schnittbeprobungen (Spatial Joins) wird ermittelt, ob sich eine Adresse innerhalb der Schweizer Landesgrenzen befindet.
-2. **Ertragsrechnung:** Es werden reale Einstrahlungswerte aus Satellitendaten herangezogen.
-3. **Lokale Wirtschaftlichkeit:** Da Stromtarife in der Schweiz auf Gemeindeebene fragmentiert sind, zieht das System die exakten Tarife des lokalen Netzbetreibers heran, um eine verlässliche Amortisationsrechnung aufzustellen.
-
-*Hinweis zur Datenintegrität:* Liegt eine abgefragte Adresse ausserhalb des vordefinierten Schweizer Datenraums, wird die Berechnung zum Schutz der Modell-Validität blockiert, da keine validen Entscheidungsgrundlagen vorliegen.
-
----
-
 ## Projektstruktur & Dateitabelle
 
 Das Repository gliedert sich in folgende Kernkomponenten:
