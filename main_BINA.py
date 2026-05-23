@@ -158,6 +158,9 @@ if analysis_started:
                     <div class="pvd-kpi-lbl">Stromtarif (H4)</div>
                     <div class="pvd-kpi-val">{tarif_val:.2f}</div>
                     <div class="pvd-kpi-lbl">Rp. / kWh</div>
+                    <hr style="border: 0; border-top: 1px solid #eee; margin: 10px 0;">
+                    <div class="pvd-kpi-lbl" style="font-size: 0.85em; opacity: 0.8;">Netzbetreiber:</div>
+                    <div class="pvd-netzbetreiber" style="font-weight: bold; font-size: 0.9em;">{netzbetreiber}</div>
                 </div>
                 """, unsafe_allow_html=True)
 
