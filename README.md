@@ -36,14 +36,7 @@ Das Projekt folgt konsequent dem Ansatz der **datenbasierten Entscheidungsfindun
 
 Das Repository gliedert sich in folgende Kernkomponenten:
 
-| Datei / Ordner | Beschreibung |
-| :--- | :--- |
-| `Data/` | Ordner mit den Roh- und vorbereiteten Geodaten (`PVOUT.tif`, Tarife als CSV, Gemeinde-Grenzdaten als Geopackage). |
-| `01_PVOUT_Preparation.ipynb` | Jupyter Notebook (Google Colab) zur Vorbereitung, Filterung und Transformation der Rasterdaten für das Solarpotenzial. |
-| `02_Stromdaten_Preparation.ipynb` | Jupyter Notebook zur Bereinigung, Filterung (Fokus auf Kategorie H4) und Zuordnung der Schweizer Stromtarifdaten. |
-| `03_PV_Potenzial_Vergleich.ipynb` | Jupyter Notebook für statistische Analysen, Validierungen und Vergleiche der berechneten Potenziale. |
-| `main_BINA.py` | Das Hauptskript der interaktiven Streamlit-Webanwendung (GUI, Geocoding-Logik und Datenvisualisierung). |
-| `requirements.txt` | Liste der benötigten Python-Bibliotheken zur Ausführung der Anwendung (z. B. `streamlit`, `geopandas`, `rasterio`). |
+Datei / OrdnerBeschreibungData/Ordner mit den Roh- und vorbereiteten Geodaten (PVOUT.tif, Tarife als CSV, Gemeinde-Grenzdaten als Geopackage).01_PVOUT_Preparation.ipynbJupyter Notebook (Google Colab) zur Vorbereitung, Filterung und Transformation der Rasterdaten für das Solarpotenzial.02_Stromdaten_Preparation.ipynbJupyter Notebook zur Bereinigung, Filterung (Fokus auf Kategorie H4) und Zuordnung der Schweizer Stromtarifdaten.03_PV_Potenzial_Vergleich.ipynbJupyter Notebook für statistische Analysen, Validierungen und Vergleiche der berechneten Potenziale.2026_BINA_PV_Potenzial_Präsentation_Gru...Die Präsentationsfolien der Gruppe zum Projekt (z. B. als PDF oder PowerPoint).2026_BINA_PV_Potenzial_Video_Gruppe_7_...Das begleitende Projekt- oder Vorstellungsvideo der Gruppe 7.README.mdDokumentation des Repositories mit Installationshinweisen und Projektbeschreibungen.main_BINA.pyDas Hauptskript der interaktiven Streamlit-Webanwendung (GUI, Geocoding-Logik und Datenvisualisierung).requirements.txtListe der benötigten Python-Bibliotheken zur Ausführung der Anwendung (z. B. streamlit, geopandas, rasterio)..DS_StoreOptionale Systemdatei: Automatisch von macOS erstellte Datei (kann ignoriert oder über .gitignore ausgeschlossen werden).
 
 ---
 
